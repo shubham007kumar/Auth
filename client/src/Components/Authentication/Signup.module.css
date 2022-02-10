@@ -1,0 +1,54 @@
+.container {
+  width: 25%;
+  margin-inline:auto;
+  margin-top: 5rem;
+  border: 1px solid #f1f1f1;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.label {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.inputField {
+  width: 80%;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 10px 20px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type="password"]:focus,
+input[type="email"]:focus {
+  outline: none;
+  border-bottom: 1px solid #000;
+}
+.H1 {
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.hori {
+  border: 1px solid #f1f1f1;
+}
+.submitField {
+  font-size: 18px;
+  font-weight: 600;
+  width: 87%;
+  padding: 12px;
+  margin: 20px 20px;
+  display: inline-block;
+  border: none;
+  border-radius: 10px;
+  background: #2196f3;
+}
+
+.error {
+  font-size: 14px;
+  font-weight: 500;
+  color: red;
+  margin-left: 10px;
+}

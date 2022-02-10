@@ -1,0 +1,17 @@
+FROM node:14-slim
+
+WORKDIR /app
+
+COPY package*.json ./
+
+RUN npm install
+
+COPY . .
+
+ENV PORT = 3002
+ENV MONGODB_URL = mongodb+srv://shubham:test@cluster0.ygf8p.mongodb.net/design?retryWrites=true&w=majority
+ENV JWT_SECRET=naruto
+
+EXPOSE 3001
+
+CMD [ "npm", "start" ]

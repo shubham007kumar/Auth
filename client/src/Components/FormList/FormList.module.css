@@ -1,0 +1,24 @@
+.table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+    margin-inline: auto;
+    margin-top: 0.5rem;
+    border-bottom: 1px solid #000;
+}
+.thead > tr > th{
+    border: 1px solid #000;
+    text-align: left;
+    padding: 8px;
+    background-color: aliceblue;
+}
+.tbody>tr>td{
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    text-align: left;
+    padding: 8px;
+}
+
+.tbody > tr:nth-child(even){
+    background-color: #dddddd;
+}
